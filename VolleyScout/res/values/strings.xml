@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VolleyScout</string>
+    <string name="action_settings">Settings</string>
+    <string name="testo">App di prova</string>
+    <string name="hello">Benvenuto!!</string>
+    <string name="title_activity_mia_squadra">MiaSquadra</string>
+    <string name="hello_world">ERRORE DI DIGITAZIONE</string>
+    <string name="mia_squadra">La mia squadra:</string>
+    <string name="title_activity_dati_giocatore_mia_squadra">DatiGiocatoreMiaSquadra</string>
+    <string name="title_activity_lista_giocatori">ListaGiocatori</string>
+    <string name="title_activity_errore">Errore</string>
+    <string name="title_activity_scheda_tecnica">SchedaTecnica</string>
+    <string name="title_activity_nuova_partita">NuovaPartita</string>
+    <string name="title_activity_set">Set</string>
+    <string name="title_activity_inserisci_numero_g">InserisciNumeroG</string>
+    <string name="title_activity_giocatore_non_presente">GiocatoreNonPresente</string>
+    <string name="title_activity_scelta_su_partite">SceltaSuPartite</string>
+    <string name="title_activity_tabella">Tabella</string>
+
+</resources>

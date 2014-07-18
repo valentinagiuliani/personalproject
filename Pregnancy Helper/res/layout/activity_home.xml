@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MyTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ragazza_profilo"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/header_bianco" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="25sp"
+        android:src="@drawable/linea_orizz" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="25dp"
+        android:background="@null"
+        android:src="@drawable/ico_lamiagravidanza" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton1"
+        android:layout_marginLeft="29dp"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:background="@null"
+        android:text="La mia gravidanza"
+        android:textColor="#44362D" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/linea_orizz" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:src="@drawable/ico_datestodo" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/linea_orizz" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ico_utilita" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/linea_orizz" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView8"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/linea_orizz" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ico_settings" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView5"
+        android:layout_alignLeft="@+id/button1"
+        android:background="@null"
+        android:text="Dates/To Do"
+        android:textColor="#44362D" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_toRightOf="@+id/imageView8"
+        android:background="@null"
+        android:layout_marginLeft="27dp"
+        android:text="Utilità"
+        android:textColor="#44362D" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView7"
+        android:layout_toRightOf="@+id/imageView6"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="25dp"
+        android:background="@null"
+        android:text="Settings"
+        android:textColor="#44362D" />
+
+</RelativeLayout>
